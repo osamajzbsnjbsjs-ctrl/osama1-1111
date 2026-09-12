@@ -1,0 +1,6 @@
+{
+  "name": "Osama Soft",
+  "description": "Official website for Osama Soft - cutting-edge web applications, browser 3D games, Android solutions, and premium UI/UX design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  
+  [dir="rtl"], [dir="rtl"] body {
+    font-family: 'Cairo', 'Outfit', sans-serif;
+  }
+
+  [dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3, [dir="rtl"] .font-display {
+    font-family: 'Cairo', sans-serif;
+  }
+  
+  h1, h2, h3, .font-display {
+    font-family: 'Space Grotesk', 'Outfit', sans-serif;
+  }
+  
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom glowing effects */
+.glow-crimson {
+  box-shadow: 0 0 20px rgba(220, 38, 38, 0.4), 0 0 45px rgba(220, 38, 38, 0.15);
+}
+
+.glow-crimson-sm {
+  box-shadow: 0 0 12px rgba(220, 38, 38, 0.35);
+}
+
+.glow-gold {
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.35), 0 0 45px rgba(245, 158, 11, 0.15);
+}
+
+.glow-gold-sm {
+  box-shadow: 0 0 12px rgba(245, 158, 11, 0.35);
+}
+
+.glow-neon-combo {
+  box-shadow: 0 0 25px rgba(220, 38, 38, 0.3), 0 0 50px rgba(245, 158, 11, 0.2);
+}
+
+.text-glow-crimson {
+  text-shadow: 0 0 12px rgba(239, 68, 68, 0.65), 0 0 24px rgba(239, 68, 68, 0.3);
+}
+
+.text-glow-gold {
+  text-shadow: 0 0 12px rgba(251, 191, 36, 0.65), 0 0 24px rgba(251, 191, 36, 0.3);
+}
+
+/* High-tech grid background */
+.bg-grid-cyber {
+  background-image: 
+    linear-gradient(to right, rgba(30, 41, 69, 0.25) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(30, 41, 69, 0.25) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.bg-dots-cyber {
+  background-image: radial-gradient(rgba(245, 158, 11, 0.15) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Metallic gold gradient */
+.bg-gradient-gold {
+  background: linear-gradient(135deg, #fef08a 0%, #f59e0b 50%, #b45309 100%);
+}
+
+.text-gradient-gold {
+  background: linear-gradient(135deg, #fef08a 0%, #fbbf24 50%, #d97706 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-crimson {
+  background: linear-gradient(135deg, #fca5a5 0%, #ef4444 50%, #991b1b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #060b18;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e294b;
+  border-radius: 4px;
+  border: 1px solid rgba(220, 38, 38, 0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #dc2626;
+}

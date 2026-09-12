@@ -1,0 +1,88 @@
+import { PublicOpinionItem } from '../types';
+
+export const initialPublicOpinions: PublicOpinionItem[] = [
+  {
+    id: 'op-1',
+    author: 'Sarah Jenkins',
+    role: 'VP of Engineering',
+    company: 'Apex Cloud Labs',
+    location: 'London, UK',
+    category: 'web',
+    rating: 5,
+    date: 'August 28, 2026',
+    content:
+      'Osama Soft engineered our mission-critical enterprise client portal. The architecture was exceptionally clean, ultra-responsive across every mobile and desktop breakpoint, and loads in under 400ms with zero bloated dependencies. Osama is a true full-stack powerhouse.',
+    likes: 42,
+    verified: true,
+  },
+  {
+    id: 'op-2',
+    author: 'Dr. Marcus Vance',
+    role: 'Creative Director',
+    company: 'Hyperion Interactive',
+    location: 'Berlin, Germany',
+    category: 'game',
+    rating: 5,
+    date: 'August 14, 2026',
+    content:
+      'We commissioned Osama Soft to build a hardware-accelerated 3D browser space runner with custom collision physics. The 60 FPS framerate on mobile touchscreens and desktop WebGL canvas blew our investors away. Unmatched graphics engineering.',
+    likes: 58,
+    verified: true,
+  },
+  {
+    id: 'op-3',
+    author: 'Khalid Al-Ghamdi',
+    role: 'Head of Mobile Operations',
+    company: 'Rawasi Logix',
+    location: 'Riyadh, Saudi Arabia',
+    category: 'android',
+    rating: 5,
+    date: 'July 29, 2026',
+    content:
+      'We faced complex Android sideloading and ADB device permission hurdles across our commercial logistics tablets. Osama personally diagnosed the OS manifest conflicts, debugged the package signing, and resolved it within 24 hours. Phenomenal commitment.',
+    likes: 37,
+    verified: true,
+  },
+  {
+    id: 'op-4',
+    author: 'Emre Yılmaz',
+    role: 'Design Director',
+    company: 'Bosphorus Tech Studio',
+    location: 'Istanbul, Turkey',
+    category: 'design',
+    rating: 5,
+    date: 'July 18, 2026',
+    content:
+      'The midnight cyber aesthetic and interactive digital business card system Osama Soft designed for our team is extraordinary. The metallic gold accents, neon glow shaders, and typographic rhythm established a benchmark for modern software presentation.',
+    likes: 64,
+    verified: true,
+  },
+  {
+    id: 'op-5',
+    author: 'Zayd Al-Husseini',
+    role: 'Founder & CEO',
+    company: 'Noor Fintech Group',
+    location: 'Dubai, UAE',
+    category: 'web',
+    rating: 5,
+    date: 'June 30, 2026',
+    content:
+      'Working directly with Osama was a masterclass in software craftsmanship. Direct telephone availability, transparent milestones, and code that passed every security audit on first review. Osama Soft is our permanent engineering partner.',
+    likes: 51,
+    verified: true,
+  },
+  {
+    id: 'op-6',
+    author: 'Elena Rostova',
+    role: 'Lead Systems Architect',
+    company: 'Quantum Matrix Systems',
+    location: 'Zurich, Switzerland',
+    category: 'game',
+    rating: 5,
+    date: 'June 12, 2026',
+    content:
+      'Pure JavaScript performance with zero framework overhead. The in-browser physics simulations run smoothly with zero garbage collection spikes. If you need serious interactive web graphics or bespoke systems, Osama Soft is the industry standard.',
+    likes: 39,
+    verified: true,
+  },
+];
